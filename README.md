@@ -1,13 +1,13 @@
 <div align="center">
 
-  <img src="https://raw.githubusercontent.com/DrakesCraft-Labs/SlimeTinker-drake/main/banner.svg" alt="SlimeTinker-drake Banner" width="920" />
+  <img src="https://raw.githubusercontent.com/SlimefunNewHorizons/SlimeTinker-drake/main/banner.svg" alt="SlimeTinker-drake Banner" width="920" />
 
 # 🧪 SlimeTinker-Drake
 
 **Slimefun4 Addon with Native Rust Acceleration (Java 21 Project Panama FFM API)**
 
 <p>
-  <a href="https://github.com/DrakesCraft-Labs/SlimeTinker-drake"><img src="https://img.shields.io/badge/GitHub-SlimeTinker--Drake-181717?style=for-the-badge&logo=github" alt="GitHub"/></a>
+  <a href="https://github.com/SlimefunNewHorizons/SlimeTinker-drake"><img src="https://img.shields.io/badge/GitHub-SlimeTinker--Drake-181717?style=for-the-badge&logo=github" alt="GitHub"/></a>
   <img src="https://img.shields.io/badge/Java-21_FFM_Panama-F89820?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java 21 FFM"/>
   <img src="https://img.shields.io/badge/Rust-FFM_Accelerated-FF4500?style=for-the-badge&logo=rust&logoColor=white" alt="Rust Native"/>
   <img src="https://img.shields.io/badge/Paper-1.21.11-38BDF8?style=for-the-badge&logo=minecraft&logoColor=white" alt="Paper 1.21.11"/>
@@ -52,14 +52,14 @@ Registers custom modular gear, parts, and modifiers in the Slimefun guide:
 |---|---|
 | **Server Software** | Paper / Purpur **1.21.11** |
 | **Java Runtime** | **Java 21** LTS |
-| **Required Core** | [Slimefun4-Drake](https://github.com/DrakesCraft-Labs/Slimefun4-Drake) |
+| **Required Core** | [Slimefun4-Drake](https://github.com/SlimefunNewHorizons/Slimefun4-Drake) |
 | **Architecture** | Server-Side Only — players join with vanilla Minecraft clients |
 
 ---
 
 ## 📥 Installation
 
-1. Download the latest `.jar` from the [Releases](https://github.com/DrakesCraft-Labs/SlimeTinker-drake/releases) page.
+1. Download the latest `.jar` from the [Releases](https://github.com/SlimefunNewHorizons/SlimeTinker-drake/releases) page.
 2. Place it into your server's `plugins/` directory alongside `Slimefun4-Drake.jar`.
 3. Restart the server. Items and recipes will automatically appear in `/sf guide`.
 
@@ -70,7 +70,7 @@ Registers custom modular gear, parts, and modifiers in the Slimefun guide:
 ## 🛠️ Compilation
 
 ```bash
-git clone https://github.com/DrakesCraft-Labs/SlimeTinker-drake.git
+git clone https://github.com/SlimefunNewHorizons/SlimeTinker-drake.git
 cd SlimeTinker-drake
 mvn clean package
 ```
@@ -89,7 +89,7 @@ The output JAR will be generated under `target/SlimeTinker-drake.jar`.
 
 ## 📄 License & Upstream Attribution
 
-This project is a sovereign fork maintained by [**JackStar6677-1**](https://github.com/JackStar6677-1) under [**DrakesCraft Labs**](https://github.com/DrakesCraft-Labs).
+This project is a sovereign fork maintained by [**JackStar6677-1**](https://github.com/JackStar6677-1) under [**DrakesCraft Labs**](https://github.com/SlimefunNewHorizons).
 
 - **Original Project:** Created by the upstream authors and the open-source community.
 - **DrakesCraft Optimizations:** Modernized for Paper/Purpur 1.21.11+, Java 21, high concurrency, asynchronous safety, and exploit/duplication prevention.

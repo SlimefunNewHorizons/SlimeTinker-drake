@@ -10,12 +10,12 @@
 
     <name>SlimeTinker</name>
     <description>Slimefun4 Addon SlimeTinker</description>
-    <url>https://github.com/DrakesCraft-Labs/SlimeTinker-drake</url>
+    <url>https://github.com/SlimefunNewHorizons/SlimeTinker-drake</url>
 
     <licenses>
         <license>
             <name>GPL-3.0 license</name>
-            <url>https://github.com/DrakesCraft-Labs/SlimeTinker-drake/blob/1.21-latin/LICENSE</url>
+            <url>https://github.com/SlimefunNewHorizons/SlimeTinker-drake/blob/1.21-latin/LICENSE</url>
             <distribution>repo</distribution>
         </license>
     </licenses>
@@ -33,9 +33,9 @@
     </developers>
 
     <scm>
-        <connection>scm:git:git://github.com/DrakesCraft-Labs/SlimeTinker-drake.git</connection>
-        <developerConnection>scm:git:ssh://github.com:DrakesCraft-Labs/SlimeTinker-drake.git</developerConnection>
-        <url>https://github.com/DrakesCraft-Labs/SlimeTinker-drake/tree/1.21-latin</url>
+        <connection>scm:git:git://github.com/SlimefunNewHorizons/SlimeTinker-drake.git</connection>
+        <developerConnection>scm:git:ssh://github.com:SlimefunNewHorizons/SlimeTinker-drake.git</developerConnection>
+        <url>https://github.com/SlimefunNewHorizons/SlimeTinker-drake/tree/1.21-latin</url>
     </scm>
 
     <properties>

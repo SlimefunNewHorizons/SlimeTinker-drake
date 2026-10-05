@@ -2,7 +2,7 @@ name: SlimeTinker
 author: Sefiraat, DrakesCraft Labs
 description: Addon de herramientas y armaduras modulares para Slimefun, mantenido por DrakesCraft Labs.
 main: io.github.sefiraat.slimetinker.SlimeTinker
-website: https://github.com/DrakesCraft-Labs/SlimeTinker-drake
+website: https://github.com/SlimefunNewHorizons/SlimeTinker-drake
 version: ${project.version}
 api-version: "1.21"
 depend:
