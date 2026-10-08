@@ -225,7 +225,7 @@ public final class PlayerDamagedEvents {
 
     public static void linksAluBronze(EventFriend friend) {
         Player p = friend.getPlayer();
-        if (p.getHealth() <= (p.getAttribute(Attribute.GENERIC_MAX_HEALTH).getValue() / 2)) {
+        if (p.getHealth() <= (p.getAttribute(Attribute.MAX_HEALTH).getValue() / 2)) {
             p.addPotionEffect(new PotionEffect(PotionEffectType.LEVITATION, 100, 2));
         }
     }
@@ -264,7 +264,7 @@ public final class PlayerDamagedEvents {
 
     public static void linksBrass(EventFriend friend) {
         Player p = friend.getPlayer();
-        if (p.getHealth() <= (p.getAttribute(Attribute.GENERIC_MAX_HEALTH).getValue() / 2)) {
+        if (p.getHealth() <= (p.getAttribute(Attribute.MAX_HEALTH).getValue() / 2)) {
             p.addPotionEffect(new PotionEffect(PotionEffectType.SPEED, 100, 2));
         }
     }
@@ -329,7 +329,7 @@ public final class PlayerDamagedEvents {
         if (friend.getCause() == EntityDamageEvent.DamageCause.CONTACT) {
             Player p = friend.getPlayer();
             friend.setDamageMod(0);
-            p.setHealth(Math.min(p.getAttribute(Attribute.GENERIC_MAX_HEALTH).getValue(), p.getHealth() + friend.getInitialDamage()));
+            p.setHealth(Math.min(p.getAttribute(Attribute.MAX_HEALTH).getValue(), p.getHealth() + friend.getInitialDamage()));
         }
     }
 
@@ -550,7 +550,7 @@ public final class PlayerDamagedEvents {
         ) {
             Player p = friend.getPlayer();
             friend.setCancelEvent(true);
-            p.setHealth(Math.min(p.getHealth() + friend.getInitialDamage(), p.getAttribute(Attribute.GENERIC_MAX_HEALTH).getValue()));
+            p.setHealth(Math.min(p.getHealth() + friend.getInitialDamage(), p.getAttribute(Attribute.MAX_HEALTH).getValue()));
         }
     }
 
@@ -597,7 +597,7 @@ public final class PlayerDamagedEvents {
         if (GeneralUtils.testChance(5, 100)) {
             Player p = friend.getPlayer();
             friend.setCancelEvent(true);
-            p.setHealth(Math.min(p.getHealth() + friend.getInitialDamage(), p.getAttribute(Attribute.GENERIC_MAX_HEALTH).getValue()));
+            p.setHealth(Math.min(p.getHealth() + friend.getInitialDamage(), p.getAttribute(Attribute.MAX_HEALTH).getValue()));
         }
     }
 
@@ -745,7 +745,7 @@ public final class PlayerDamagedEvents {
 
     public static void plateSupreme(EventFriend friend) {
         friend.setDamageMod(friend.getDamageMod() * 0.60);
-        friend.getPlayer().setHealth(Math.min(friend.getPlayer().getHealth() + 2, friend.getPlayer().getAttribute(Attribute.GENERIC_MAX_HEALTH).getValue()));
+        friend.getPlayer().setHealth(Math.min(friend.getPlayer().getHealth() + 2, friend.getPlayer().getAttribute(Attribute.MAX_HEALTH).getValue()));
     }
 
     public static void linksSupreme(EventFriend friend) {
