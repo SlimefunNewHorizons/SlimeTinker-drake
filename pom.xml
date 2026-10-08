@@ -40,11 +40,13 @@
 
     <properties>
         <maven.deploy.skip>false</maven.deploy.skip>
-        <maven.compiler.source>21</maven.compiler.source>
-        <maven.compiler.target>21</maven.compiler.target>
+        <java.version>25</java.version>
+        <maven.compiler.release>25</maven.compiler.release>
+        <maven.compiler.source>25</maven.compiler.source>
+        <maven.compiler.target>25</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.build.number>MODIFIED</project.build.number>
-        <paper.version>1.21.11-R0.1-SNAPSHOT</paper.version>
+        <paper.version>26.2.build.129-stable</paper.version>
         <slimefun.version>RC-37</slimefun.version>
         <infinitylib.version>7e03c79</infinitylib.version>
         <acf.version>0.5.1-SNAPSHOT</acf.version>
@@ -117,10 +119,9 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.16.0</version>
+                <version>3.13.0</version>
                 <configuration>
-                    <source>21</source>
-                    <target>21</target>
+                    <release>${maven.compiler.release}</release>
                 </configuration>
             </plugin>
         </plugins>
