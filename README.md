@@ -4,6 +4,8 @@
 > **Créditos y licencia.** Port y mantenimiento por [JackStar6677-1](https://github.com/JackStar6677-1) y [DrakesCraft Labs](https://github.com/SlimefunNewHorizons). Autores originales: [Sefiraat](https://github.com/Sefiraat) (upstream [Sefiraat/SlimeTinker](https://github.com/Sefiraat/SlimeTinker)), [Sefiraat](https://github.com/Sefiraat), [ybw0014](https://github.com/ybw0014), [renovate-bot](https://github.com/renovate-bot), [J3fftw1](https://github.com/J3fftw1), Sefiraat, DrakesCraft Labs (plugin.yml). Licencia original: **GNU General Public License v3.0**. Detalle en [docs/UPSTREAM_ATTRIBUTION.md](docs/UPSTREAM_ATTRIBUTION.md).
 <!-- credits:end -->
 
+> **Branches / Ramas.** `main`: Paper/Purpur 1.21.11 (Java 21). `port-26x`: Paper/Purpur 26.x (production: Purpur 26.2, Java 25). If another section of this README says otherwise, this note prevails. / Si otra seccion de este README dice otra cosa, prevalece esta nota.
+
 <div align="center">
 
   <img src="https://raw.githubusercontent.com/SlimefunNewHorizons/SlimeTinker-drake/main/banner.svg" alt="SlimeTinker-drake Banner" width="920" />
